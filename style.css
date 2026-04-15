@@ -1,0 +1,30 @@
+body, html {
+    margin: 0; padding: 0;
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+}
+
+#game-wrapper {
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    border: 3px solid #00fbff;
+    box-shadow: 0 0 30px rgba(0, 251, 255, 0.3);
+    overflow: hidden;
+    background-color: #000; /* Fondo de seguridad */
+}
+
+canvas {
+    display: block;
+    /* Puntero personalizado con el Icono */
+    cursor: url('assets/obj/Icon.png') 16 16, crosshair;
+}
+
+.title-glow {
+    text-shadow: 0 0 10px #00fbff, 0 0 20px #00fbff;
+}
+
+#btn-reset { 
+    font-weight: bold; 
+    letter-spacing: 2px;
+}

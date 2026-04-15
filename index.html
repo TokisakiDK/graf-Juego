@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caza-Peluches - Examen Graficación</title>
+    <link rel="icon" type="image/png" href="assets/obj/Icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-white">
+
+    <header class="container-fluid py-3 bg-black border-bottom border-info">
+        <div class="row align-items-center">
+            <div class="col-md-4 d-flex align-items-center">
+                <img src="assets/obj/Teto.png" alt="Logo" width="45" class="me-3">
+                <h1 class="h4 mb-0 text-info title-glow">Downloading HPLang</h1>
+            </div>
+            <div class="col-md-4 text-center">
+                <h5 class="mb-0">
+                    NIVEL: <span id="nivel" class="text-success fs-3 me-3">1</span> 
+                    PUNTOS: <span id="contador" class="text-warning fs-3">0</span>
+                </h5>
+            </div>
+            <div class="col-md-4 text-end">
+                <h5 class="mb-0">TIEMPO: <span id="temporizador" class="text-danger fs-3">60</span>s</h5>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid py-3 d-flex flex-column align-items-center">
+        <section class="text-center py-2 mb-3 rounded" style="width: 1100px; background-color: rgba(0, 0, 0, 0.8); border: 1px solid #00fbff; box-shadow: 0 0 10px rgba(0,251,255,0.2);">
+            <strong class="text-white">Instrucciones:</strong> Clic Izquierdo para atrapar. Clic Derecho para red expansiva (5s recarga).<br>
+            <span style="color: #ff3e3e; font-weight: bold;">Bolita RGB:</span> Dispara metralla (Clic). <span class="mx-2 text-secondary">|</span> 
+            <span style="color: #a8a8a8; font-weight: bold;">Bolita Gris:</span> Ralentiza el tiempo.
+        </section>
+
+        <div id="game-wrapper">
+            <canvas id="canvas"></canvas>
+        </div>
+        
+        <button id="btn-reset" class="btn btn-outline-info mt-3 px-4">REINICIAR DESCARGA</button>
+    </main>
+
+    <footer class="container-fluid py-3 bg-black border-top border-info text-center mt-auto">
+        <p class="mb-0 text-secondary">Creado por: <strong class="text-white">Ramirez Vera David Adolfo</strong> | Control: <strong class="text-white">23200883</strong></p>
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+</html>
