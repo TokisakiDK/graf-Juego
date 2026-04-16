@@ -11,8 +11,7 @@
 
 | 👤 Información de la Evaluación | 📋 Detalle |
 | :--- | :--- |
-| **Autor** | `Ramirez Vera David Adolfo` |
-| **No. de Control** | `23200883` |
+| **Autores** | `Ramirez Vera David Adolfo y Rodriguez Bautista Giovanni Ariel` |
 | **Profesor** | M.T.I. Luis Alejandro Santana Valadez |
 | **Fecha** | 15 de abril de 2026 |
 | **Semestre** | Enero - Junio 2026 |
@@ -21,53 +20,69 @@
 
 ### 🌍 Contexto
 <div align="justify">
-El presente proyecto se desarrolla como evaluación práctica de las Unidades III y IV de la asignatura de Graficación. Consiste en la programación desde cero de un entorno interactivo en dos dimensiones renderizado directamente en el navegador, aplicando la API Canvas nativa de HTML5 sin el uso de motores gráficos externos.
+Se trata de un menú de videojuegos en 2D que creamos para que se pueda jugar directamente en cualquier navegador web, usando solo las herramientas básicas de la web.
 </div>
 
 ### 🎯 Objetivo
 <div align="justify">
-Desarrollar un videojuego 2D aplicando la API Canvas que mantenga en pantalla exactamente 25 objetos simultáneos desplazándose aleatoriamente en 4 direcciones distintas (arriba, abajo, diagonal y circular). El sistema debe gestionar eventos de ratón para la eliminación de entidades, resolver físicas de colisión elástica con animaciones de rebote, e implementar un control de versiones mediante Git publicado en GitHub Pages.
+Hacer un juego donde siempre haya 25 objetos moviéndose por toda la pantalla en diferentes direcciones. El jugador debe usar el ratón para atraparlos. Además, los personajes deben rebotar si chocan entre ellos, debe estar publicado y funcionando en internet a través de GitHub Pages.
 </div>
 
 ### 💡 Justificación
 <div align="justify">
-La creación de este videojuego mediante Vanilla JavaScript y la API Canvas permite consolidar los fundamentos de la graficación por computadora de bajo nivel. Al programar matemáticamente el motor de físicas (teorema de Pitágoras para detección de colisiones circulares), el Game Loop (requestAnimationFrame) y la gestión de estado de los objetos, se adquiere una comprensión profunda de cómo operan internamente los motores gráficos modernos. Adicionalmente, el uso de Bootstrap en línea asegura una interfaz de usuario responsiva y profesional.
+Crear estos juegos nos ayudan a entender cómo funcionan los videojuegos por dentro. Las mecanicas que se pueden añadir a diferentes situaciones y proyectos. También a diseñar una pantalla que se vea atractiva y sea fácil de usar.
 </div>
 
-### ⚙️ Operación del Videojuego (Reglas y Jugabilidad)
+### ⚙️ Operación de los Videojuegos (Reglas y Jugabilidad)
+
 <div align="justify">
-El juego operado bajo el título "Downloading HPLang: Caza-Peluches" consiste en un desafío contrarreloj de 60 segundos donde el usuario debe atrapar personajes en pantalla.
+El proyecto cuenta con dos experiencias interactivas distintas, cada una con sus propias reglas y mecánicas de juego:
 </div>
 
-* **Interacción Principal:** Al hacer clic izquierdo sobre un objeto, este se elimina, suma puntos al marcador y reaparece aleatoriamente en los bordes para mantener siempre 25 elementos activos.
-* **Habilidad Especial:** El clic derecho despliega una "red expansiva" que atrapa múltiples objetos en un radio determinado. Posee un tiempo de recarga de 5 segundos.
-* **Progresión (Niveles):** Cada 20 puntos obtenidos, el jugador avanza de nivel. Esto suma +15 segundos al temporizador, cambia dinámicamente la imagen de fondo y aumenta gradualmente la velocidad de los objetos.
-* **Power-Ups (Objetos Especiales):**
-  * **Bolita RGB:** Objeto raro que, al ser clickeado, libera una ráfaga de 8 proyectiles automáticos en todas direcciones (metralla) que eliminan a los enemigos que tocan.
-  * **Bolita Gris:** Objeto muy raro que ralentiza drásticamente el tiempo y la velocidad de todos los objetos en pantalla durante 5 segundos.
-* **Físicas:** Los objetos colisionan entre sí aplicando rebotes elásticos y emitiendo partículas de choque.
+#### 1️⃣ Downloading HPLang: Caza-Peluches
+<div align="justify">
+Es un reto de 60 segundos donde debes atrapar personajes en pantalla antes de que se acabe el tiempo.
+</div>
+
+* **Atrapar:** Haz clic izquierdo sobre un personaje para atraparlo y ganar puntos. Aparecerá uno nuevo de inmediato para que siempre haya 25 en pantalla.
+* **Red especial:** Con el clic derecho atrapas a varios de un solo golpe. Tarda 5 segundos en recargarse.
+* **Niveles:** Cada 20 puntos subes de nivel. Te dan más tiempo, el fondo cambia y los personajes se mueven un poco más rápido.
+* **Ayudas extra (Bolitas):**
+  * **Bolita de colores:** Si le das clic, dispara hacia todos lados y te ayuda a limpiar la pantalla rápido.
+  * **Bolita gris:** Hace que todo el juego se mueva en cámara lenta por unos segundos.
+* **Choques:** Si los personajes chocan entre ellos, rebotan y sacan chispitas.
+
+#### 2️⃣ Severed Heads: Plastic Beach
+<div align="justify">
+Te lleva a la famosa "Plastic Beach", donde las cabezas de la banda Gorillaz flotan sin parar y debes cazar la mayor cantidad posible para acumular puntos.
+</div>
+
+* **Atrapar:** Haz clic sobre las cabezas de 2D, Noodle y Russel para atraparlas y sumar 100 puntos. Al hacer clic, sueltan partículas de colores y aparece el texto de tus puntos flotando.
+* **Cabeza Especial (Murdoc):** Presta mucha atención a la cabeza de color verde (Murdoc). Es más rápida, pero si logras darle clic te dará una recompensa gigante de 500 puntos (¡5 veces más!).
+* **Efecto Gelatina:** Las cabezas tienen físicas divertidas. Si chocan entre ellas en el aire, rebotan deformándose como si fueran de gelatina. Además, dejan un pequeño rastro brillante al volar.
+* **Paso del tiempo:** No hay un límite de tiempo estricto, pero a medida que sigues jugando, el fondo de la pantalla cambiará automáticamente mostrando cómo transcurre el día, pasando por la mañana, la tarde y la noche de forma suave.
 
 ### 📌 Conclusiones
 <div align="justify">
-El desarrollo del proyecto demostró con éxito la viabilidad de crear simulaciones gráficas interactivas y escalables nativas en la web. Se superaron retos técnicos importantes, tales como la persistencia de audio continuo (.wav) sorteando las políticas de autoplay de los navegadores, y la optimización del rendimiento al gestionar decenas de partículas y objetos con imágenes redibujándose a 60 FPS (Frames Per Second). El uso de un entorno estructurado y el despliegue mediante repositorios garantiza el control y mantenimiento del código.
+En conclusión, este proyecto nos demostró que no se necesitan programas complicados para crear videojuegos divertidos. Usando solo las herramientas básicas de internet, logramos darle vida y movimiento a las imágenes, creando dos juegos completos que cualquiera puede disfrutar desde su navegador.
 </div>
 
 ---
 
 ### 🔗 Enlaces del Proyecto
 
-* 🌐 **Despliegue (GitHub Pages):** `https://tokisakidk.github.io/graf-Juego/
-* 📁 **Repositorio (Código Fuente):** `https://github.com/TokisakiDK/graf-Juego.git
+* 🌐 **Despliegue (GitHub Pages):** `https://tokisakidk.github.io/graf-2Seg_Juegos/`
+* 📁 **Repositorio (Código Fuente):** `https://github.com/TokisakiDK/graf-2Seg_Juegos.git`
 
 ---
 
 ### 🛠️ Herramientas Utilizadas
 
-* ![Canvas API](https://img.shields.io/badge/HTML5_Canvas-E34F26?style=flat-square&logo=html5&logoColor=white) **Canvas API** - Motor de renderizado 2D nativo para el dibujado de imágenes, textos y formas geométricas en cada *frame*.
-* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) **JavaScript (ES6+)** - Lógica orientada a objetos (clases) para el comportamiento de enemigos, temporizador, partículas y *Game Loop*.
-* ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white) **Bootstrap 5** - Framework CSS cargado mediante CDN para el maquetado estructurado del Header, Main y Footer.
-* ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) **Git & GitHub** - Control de versiones local y alojamiento en la nube para integración y despliegue continuo (Pages).
-* ![VSC](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) **VS Code** - Entorno de desarrollo integrado utilizado para la escritura del código.
+* ![Canvas API](https://img.shields.io/badge/HTML5_Canvas-E34F26?style=flat-square&logo=html5&logoColor=white) **Canvas API** - Para dibujar el juego, los personajes y los fondos en la pantalla.
+* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) **JavaScript** - Para darle vida, movimiento y reglas al juego.
+* ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white) **Bootstrap 5** - Para que la página web principal se vea bonita y ordenada.
+* ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) **Git & GitHub** - Para guardar nuestro trabajo y publicarlo en internet.
+* ![VSC](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) **VS Code** - El programa que usamos para escribir todo el código.
 
 ---
 <p align="center">
