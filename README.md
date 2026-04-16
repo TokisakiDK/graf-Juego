@@ -1,4 +1,4 @@
-# 🏛️ Instituto Tecnológico de Pachuca
+# Instituto Tecnológico de Pachuca
 
 <p align="center">
   <img src="https://img.shields.io/badge/CARRERA-Ingeniería%20en%20Sistemas%20Computacionales-004d40?style=for-the-badge" />
@@ -7,9 +7,9 @@
 
 ---
 
-### 🎮 Examen segundo seguimiento: Videojuego 2D con Canvas
+### Examen segundo seguimiento: Videojuego 2D con Canvas
 
-| 👤 Información de la Evaluación | 📋 Detalle |
+| Información de la Evaluación | 📋 Detalle |
 | :--- | :--- |
 | **Autores** | `Ramirez Vera David Adolfo y Rodriguez Bautista Giovanni Ariel` |
 | **Profesor** | M.T.I. Luis Alejandro Santana Valadez |
@@ -18,28 +18,28 @@
 
 ---
 
-### 🌍 Contexto
+### Contexto
 <div align="justify">
 Se trata de un menú de videojuegos en 2D que creamos para que se pueda jugar directamente en cualquier navegador web, usando solo las herramientas básicas de la web.
 </div>
 
-### 🎯 Objetivo
+### Objetivo
 <div align="justify">
 Hacer un juego donde siempre haya 25 objetos moviéndose por toda la pantalla en diferentes direcciones. El jugador debe usar el ratón para atraparlos. Además, los personajes deben rebotar si chocan entre ellos, debe estar publicado y funcionando en internet a través de GitHub Pages.
 </div>
 
-### 💡 Justificación
+### Justificación
 <div align="justify">
 Crear estos juegos nos ayudan a entender cómo funcionan los videojuegos por dentro. Las mecanicas que se pueden añadir a diferentes situaciones y proyectos. También a diseñar una pantalla que se vea atractiva y sea fácil de usar.
 </div>
 
-### ⚙️ Operación de los Videojuegos (Reglas y Jugabilidad)
+### Operación de los Videojuegos (Reglas y Jugabilidad)
 
 <div align="justify">
 El proyecto cuenta con dos experiencias interactivas distintas, cada una con sus propias reglas y mecánicas de juego:
 </div>
 
-#### 1️⃣ Downloading HPLang: Caza-Peluches
+#### Downloading HPLang: Caza-Peluches
 <div align="justify">
 Es un reto de 60 segundos donde debes atrapar personajes en pantalla antes de que se acabe el tiempo.
 </div>
@@ -52,7 +52,7 @@ Es un reto de 60 segundos donde debes atrapar personajes en pantalla antes de qu
   * **Bolita gris:** Hace que todo el juego se mueva en cámara lenta por unos segundos.
 * **Choques:** Si los personajes chocan entre ellos, rebotan y sacan chispitas.
 
-#### 2️⃣ Severed Heads: Plastic Beach
+#### Severed Heads: Plastic Beach
 <div align="justify">
 Te lleva a la famosa "Plastic Beach", donde las cabezas de la banda Gorillaz flotan sin parar y debes cazar la mayor cantidad posible para acumular puntos.
 </div>
@@ -62,7 +62,7 @@ Te lleva a la famosa "Plastic Beach", donde las cabezas de la banda Gorillaz flo
 * **Efecto Gelatina:** Las cabezas tienen físicas divertidas. Si chocan entre ellas en el aire, rebotan deformándose como si fueran de gelatina. Además, dejan un pequeño rastro brillante al volar.
 * **Paso del tiempo:** No hay un límite de tiempo estricto, pero a medida que sigues jugando, el fondo de la pantalla cambiará automáticamente mostrando cómo transcurre el día, pasando por la mañana, la tarde y la noche de forma suave.
 
-### 📌 Conclusiones
+### Conclusiones
 <div align="justify">
 En conclusión, este proyecto nos demostró que no se necesitan programas complicados para crear videojuegos divertidos. Usando solo las herramientas básicas de internet, logramos darle vida y movimiento a las imágenes, creando dos juegos completos que cualquiera puede disfrutar desde su navegador.
 </div>
@@ -71,8 +71,8 @@ En conclusión, este proyecto nos demostró que no se necesitan programas compli
 
 ### 🔗 Enlaces del Proyecto
 
-* 🌐 **Despliegue (GitHub Pages):** [Haz clic aquí para jugar](https://tokisakidk.github.io/graf-2Seg_Juegos/)
-* 📁 **Repositorio (Código Fuente):** [Ver el código en GitHub](https://github.com/TokisakiDK/graf-2Seg_Juegos.git)
+* 🌐 **Despliegue (GitHub Pages):** `https://tokisakidk.github.io/graf-2Seg_Juegos/`
+* 📁 **Repositorio (Código Fuente):** `https://github.com/TokisakiDK/graf-2Seg_Juegos.git`
 
 ---
 
