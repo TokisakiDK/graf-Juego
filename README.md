@@ -7,7 +7,7 @@
 
 ---
 
-### 🎮 Examen de Unidades III y IV: Videojuego 2D con Canvas
+### 🎮 Examen segundo seguimiento: Videojuego 2D con Canvas
 
 | 👤 Información de la Evaluación | 📋 Detalle |
 | :--- | :--- |
@@ -71,8 +71,8 @@ En conclusión, este proyecto nos demostró que no se necesitan programas compli
 
 ### 🔗 Enlaces del Proyecto
 
-* 🌐 **Despliegue (GitHub Pages):** [Haz clic aquí para jugar](https://tokisakidk.github.io/graf-2Seg_Juegos/)
-* 📁 **Repositorio (Código Fuente):** [Ver el código en GitHub](https://github.com/TokisakiDK/graf-2Seg_Juegos.git)
+* 🌐 **Despliegue (GitHub Pages):** `https://tokisakidk.github.io/graf-2Seg_Juegos/`
+* 📁 **Repositorio (Código Fuente):** `https://github.com/TokisakiDK/graf-2Seg_Juegos.git`
 
 ---
 
